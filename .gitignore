@@ -1,0 +1,11 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# User-specific stuff
+.idea/
+data/import
+data/backup_tweets.csv
+data/url_dict.json
+poetry.lock
+pyproject.toml
+runs/
