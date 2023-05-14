@@ -17,22 +17,17 @@ This repository contains the annotation framework, dataset and code used for the
 ## Repository Layout
 
 1. [data](./data)
-    1. [annotation_framework.pdf](./data/annotation_framework.pdf): The annotation framework for TACO.
-    2. [import](./data/import): Conversations and expert decisions were brought in from external sources (*).
-    3. [unify.py](./data/import/unify.py): Used to build the following ground truth data as specified in section 2.2 of the paper.
-        1. [backup_tweets.csv](./data/backup_tweets.csv): Containing the clear text of all tweets (*).
-        2. [url_dict.json](./data/url_dict.json): The resolved tiny URLs in order to trace the original URLs (*).
-        3. [conversations.csv](./data/conversations.csv): Having stored the structure of conversations.
-        4. [majority_votes.csv](./data/majority_votes.csv): All the majority votes, which serve as the labeled ground truth.
-        5. [worker_decisions.csv](./data/worker_decisions.csv): All individual expert decisions.
+   1. [README.md](./data/README.md): A data specific README for TACO.  
+   2. [annotation_framework.pdf](./data/annotation_framework.pdf): The annotation framework for TACO.
+   3. [conversations.csv](./data/conversations.csv): Having stored the structure of conversations.
+   4. [majority_votes.csv](./data/majority_votes.csv): All the majority votes, which serve as the labeled ground truth.
+   5. [worker_decisions.csv](./data/worker_decisions.csv): All individual expert decisions.
 2. [notebooks](./notebooks)
-    1. [dataset_statistics.ipynb](./notebooks/dataset_statistics.ipynb): For the dataset statistics as specified in the sections 2.2 - 2.4
+    1. [dataset_statistics.ipynb](./notebooks/dataset_statistics.ipynb): For comparing the dataset statistics as specified in the sections 2.2 - 2.4
        of the paper.
     2. [classifier_cv.ipynb](./notebooks/classifier_cv.ipynb): For training and evaluating the baseline model as in the section 3 of the paper.
-        1. [bertweet_cv_predictions.csv](./outputs/bertweet_cv_predictions.csv): The cross-validation result of the trained baseline model.
-
-| (*): The sensitive user data contained in these files should not be made public. Please [contact](#contact) for additional information. |
-|-----------------------------------------------------------------------------------------------------------------------------------------|
+3. [outputs](./outputs)
+   1. [bertweet_cv_predictions.csv](./outputs/bertweet_cv_predictions.csv): The ground truth and cross-validation results of the baseline model.
 
 ## Findings
 
