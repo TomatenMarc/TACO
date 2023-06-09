@@ -1,4 +1,4 @@
-tweet_id,topic,category,confidence
+tweet_id,topic,class,confidence
 1433222577007198208,abortion,Notification,0.75
 1433771702912159748,abortion,Undecided,0.5
 1435676853189152775,abortion,Reason,1.0
