@@ -1,4 +1,4 @@
-tweet_id,category,category_pred
+tweet_id,class,class_pred
 1438252969200394244,1,0
 1435007518640689155,1,2
 1433706737505292303,2,2
