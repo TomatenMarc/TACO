@@ -33,13 +33,13 @@ This repository contains the annotation framework, dataset and code used for the
 
 ### Sample Distribution
 
-                      count   percent  sample-time
-    abortion           486     26.8%   2021/08/15-10/16
-    brexit             535     29.5%   2020/01/01-03/01
-    got                192     10.6%   2019/04/01-05/01
-    lotrrop            209     11.5%   2022/02/01-03/01
-    squidgame          226     12.5%   2021/09/10-10/10
-    twittertakeover    166      9.2%   2022/04/01-05/01
+                      count   percent  query-time           key-date
+    abortion           486     26.8%   2021/08/15-10/16     S.B.8 took effet on 2021/09/01.
+    brexit             535     29.5%   2020/01/01-03/01     Brexit took effect on 2020/02/01.
+    got                192     10.6%   2019/04/01-05/01     GOT S8 premiered (HBO-US) on 2019/04/19.
+    lotrrop            209     11.5%   2022/02/01-03/01     LOTRROP teaser trailer was released on 2022/02/14.
+    squidgame          226     12.5%   2021/09/10-10/10     Squid Game was released (Netflix wordlwide) on 2021/09/17. 
+    twittertakeover    166      9.2%   2022/04/01-05/01     Elon Musk offers $43 billion to purchase Twitter on 2020/04/14.
 
 ### Dataset Distribution
 
