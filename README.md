@@ -1,5 +1,5 @@
 # :taco: TACO -- Twitter Arguments from COnversations
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8030026.svg)](https://doi.org/10.5281/zenodo.8030027)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8030026.svg)](https://doi.org/10.5281/zenodo.8030026)
 
 This repository contains the annotation framework, dataset and code used for the resource paper *"TACO -- Twitter Arguments from COnversations"*.
 
