@@ -47,7 +47,7 @@ This repository contains the annotation framework, dataset and code used for the
       865 (49.88%)                869 (50.12%)
       
       Reason       Statement      Notification  None
-      581 (33.5%)  284 (16.4%)    500 (28.8%)   369 (21.3%)
+      581 (33.50%) 284 (16.38%)   500 (28.84%)  369 (21.28%)
 
 ### Conversational Reply Patterns
 
