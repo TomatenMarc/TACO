@@ -17,17 +17,17 @@ This repository contains the annotation framework, dataset and code used for the
 ## Repository Layout
 
 1. [data](./data)
-   1. [README.md](./data/README.md): A data specific README for TACO.  
-   2. [annotation_framework.pdf](./data/annotation_framework.pdf): The annotation framework for TACO.
-   3. [conversations.csv](./data/conversations.csv): Having stored the structure of conversations.
-   4. [majority_votes.csv](./data/majority_votes.csv): All the majority votes, which serve as the labeled ground truth.
-   5. [worker_decisions.csv](./data/worker_decisions.csv): All individual expert decisions.
+    1. [README.md](./data/README.md): A data-specific README for TACO and its annotation process.
+    2. [annotation_framework.pdf](./data/annotation_framework.pdf): The annotation framework for TACO.
+    3. [conversations.csv](./data/conversations.csv): Having stored the structure of all collected conversations.
+    4. [majority_votes.csv](./data/majority_votes.csv): All the majority votes, which serve as the labeled ground truth.
+    5. [worker_decisions.csv](./data/worker_decisions.csv): All individual expert decisions.
 2. [notebooks](./notebooks)
     1. [dataset_statistics.ipynb](./notebooks/dataset_statistics.ipynb): For comparing the dataset statistics as specified in the sections 2.2 - 2.4
        of the paper.
     2. [classifier_cv.ipynb](./notebooks/classifier_cv.ipynb): For training and evaluating the baseline model as in the section 3 of the paper.
 3. [outputs](./outputs)
-   1. [bertweet_cv_predictions.csv](./outputs/bertweet_cv_predictions.csv): The ground truth and cross-validation results of the baseline model.
+    1. [bertweet_cv_predictions.csv](./outputs/bertweet_cv_predictions.csv): The ground truth and cross-validation results of the baseline model.
 
 ## Findings
 
