@@ -33,7 +33,7 @@ This repository contains the annotation framework, dataset and code used for the
 
 ### Sample Distribution
 
-                       sample       total             query-time         key-date
+                      sample       total             query-time         key-date
     abortion          486 (26.8%)   29,939  (5.0%)   2021/08/15-10/16   S.B.8 took effet on 2021/09/01.
     brexit            535 (29.5%)  427,260 (70.9%)   2020/01/01-03/01   Brexit took effect on 2020/02/01.
     got               192 (10.6%)   61,705 (10.2%)   2019/04/01-05/01   GOT S8 premiered (HBO-US) on 2019/04/19.
