@@ -8,4 +8,5 @@ data/backup_tweets.csv
 data/url_dict.json
 poetry.lock
 pyproject.toml
+model/
 runs/

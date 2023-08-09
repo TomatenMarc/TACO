@@ -1,8 +1,9 @@
 # :taco: TACO -- Twitter Arguments from COnversations
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8030026.svg)](https://doi.org/10.5281/zenodo.8030026)
 
-In this folder, you can find the annotation framework and information about the data used in the resource paper: "TACO - Twitter Arguments from
-Conversations".
+In this folder, you can find the annotation framework and information about the data used in the resource paper: *"TACO -- Twitter Arguments from
+COnversations"*.
 
 ## Sensitive Data
 
@@ -14,13 +15,13 @@ truth data and gain preliminary insights. Since we cannot release all data, such
 the [dataset_statistics.ipynb](../notebooks/dataset_statistics.ipynb) file is only provided for comparison purposes. Accessing it would
 necessitate the use of the following files:
 
-1. [data/unify.py](./import/unify.py): Used to build our ground truth data as specified in section 2.2 of the paper.
+1. [data/unify.py](./import/unify.py): Used to build our ground truth data.
 2. [data/import](./import): Conversations and expert decisions were brought in from external sources (*).
 3. [data/backup_tweets.csv](./backup_tweets.csv): Containing the clear text of all tweets (*).
 4. [data/url_dict.json](./url_dict.json): The resolved tiny URLs in order to trace the original URLs (*).
 
-| (*): The sensitive user data contained in these files should not be made public. Please [contact](#contact) for additional information. For rehydrating tweets or for obtaining own conversations we recommend to use our [tool](https://pypi.org/project/twitter-conversation/). |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| (*): The sensitive user data contained in these files should not be made public. Please [contact](#contact) for accessing the original data. For rehydrating tweets or for obtaining own conversations we recommend to use our [tool](https://pypi.org/project/twitter-conversation/). |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 ## About conversations
 
@@ -44,10 +45,13 @@ in [majority_votes.csv](./majority_votes.csv). The [worker_decisions.csv](./work
 1. **tweet_id**: The unique identifier of a tweet in Twitter's database.
 2. **information**: A binary value indicating the presence (1) or absence (0) of information in the tweet.
 3. **inference**: A binary value indicating the presence (1) or absence (0) of inference in the tweet.
-4. **confidence**: A value indicating the annotator's task confidence, ranging from easy (1) to hard (3), not used in the paper.
-5. **worker**: The identifier of the annotator (A and E both belong to the author Marc Feger)).
+4. **confidence**: A value indicating the annotator's task confidence, ranging from easy (1) to hard (3), not used in the paper (*).
+5. **worker**: The identifier of the annotator (A and E both belong to the first author)).
 6. **topic**: The conversation's topic that was assigned for sampling purposes.
 7. **phase**: The phase in which the tweet was annotated.
+
+| (*): This confidence value is distinct from the confidence reported in [majority_votes.csv](./majority_votes.csv) and was solely utilized as a self-monitoring variable (reminder) for the experts during the annotation process. |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 ### Annotation Phases
 
@@ -81,12 +85,26 @@ agree on one class). The resulting ground truth data is saved in [majority_votes
 2. **topic**: The topic of the conversation that was assigned for sampling purposes.
 3. **class**: The class assigned to each tweet based on the majority vote of the annotators, as specified
    in [annotation_framework.pdf](./annotation_framework.pdf).
-4. **confidence**: The proportion of annotators who voted for the final class. For example, if A, B, and C all voted for the same class, the
-   confidence value would be 3/4.
+4. **confidence**: The ratio of annotators who endorsed the ultimate class decision. For instance, if annotators A, B, and C all voted for one class,
+   while annotator D voted for a different class, the confidence value would be 3/4.
+
+## Licensing
+
+<p>
+  <a property="dct:title" rel="cc:attributionURL" href="https://github.com/TomatenMarc/TACO">TACO -- Twitter Arguments from Conversations</a> by 
+  <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="mailto:marc.feger@uni-duesseldorf.de">Marc Feger</a> is licensed under 
+  <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0</a>
+  <div style="display:block;">
+    <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1">
+    <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1">
+    <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1">
+    <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1">
+  </div>
+</p>
 
 ## Contact
 
-Please contact [marc.feger@uni-duesseldorf.de](marc.feger@uni-duesseldorf.de) or [stefan.dietze@gesis.org](stefan.dietze@gesis.org).
+Please contact [marc.feger@uni-duesseldorf.de](mailto:marc.feger@uni-duesseldorf.de) or [stefan.dietze@gesis.org](mailto:stefan.dietze@gesis.org).
 
 ## Acknowledgements
 
