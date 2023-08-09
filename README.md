@@ -1,10 +1,13 @@
 # :taco: TACO -- Twitter Arguments from COnversations
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8030026.svg)](https://doi.org/10.5281/zenodo.8030026)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com)
+
+[![Share to Community](https://huggingface.co/datasets/huggingface/badges/raw/main/powered-by-huggingface-dark.svg)](https://huggingface.co/TomatenMarc/TACO)
+
+
 
 This repository contains the annotation framework, dataset and code used for the resource paper *"TACO -- Twitter Arguments from COnversations"*.
-
-| Notice: To execute this project, it can be run on [Google Colab](https://colab.research.google.com). |
-|------------------------------------------------------------------------------------------------------|
+To use the baseline model, please visit [Hugging Face](https://huggingface.co/TomatenMarc/TACO).
 
 **Table of Contents:**
 
@@ -24,9 +27,8 @@ This repository contains the annotation framework, dataset and code used for the
     4. [majority_votes.csv](./data/majority_votes.csv): All the majority votes, which serve as the labeled ground truth.
     5. [worker_decisions.csv](./data/worker_decisions.csv): All individual expert decisions.
 2. [notebooks](./notebooks)
-    1. [dataset_statistics.ipynb](./notebooks/dataset_statistics.ipynb): For comparing the dataset statistics as specified in the sections 2.2 - 2.4
-       of the paper.
-    2. [classifier_cv.ipynb](./notebooks/classifier_cv.ipynb): For training and evaluating the baseline model as in the section 3 of the paper.
+    1. [dataset_statistics.ipynb](./notebooks/dataset_statistics.ipynb): For comparing the dataset statistics.
+    2. [classifier_cv.ipynb](./notebooks/classifier_cv.ipynb): For training and evaluating the baseline model.
 3. [outputs](./outputs)
     1. [bertweet_cv_predictions.csv](./outputs/bertweet_cv_predictions.csv): The ground truth and cross-validation results of the baseline model.
 
@@ -35,12 +37,12 @@ This repository contains the annotation framework, dataset and code used for the
 ### Sample Distribution
 
                      sample       total            query-time        key-date
-    abortion         486 (26.8%)   29,939 (5.0%)   2021/08/15-10/16  S.B.8 took effet on 2021/09/01.
-    brexit           535 (29.5%)  427,260 (70.9%)  2020/01/01-03/01  Brexit took effect on 2020/02/01.
-    got              192 (10.6%)   61,705 (10.2%)  2019/04/01-05/01  GOT S8 premiered (HBO-US) on 2019/04/19.
-    lotrrop          209 (11.5%)   14,014  (2.3%)  2022/02/01-03/01  LOTRROP teaser trailer was released on 2022/02/14.
-    squidgame        226 (12.5%)   51,215  (8.5%)  2021/09/10-10/10  Squid Game was released (Netflix wordlwide) on 2021/09/17. 
-    twittertakeover  166  (9.1%)   18,531  (3.1%)  2022/04/01-05/01  Elon Musk offers $43 billion to purchase Twitter on 2020/04/14.
+    Abortion         486 (26.8%)   29,939  (5.0%)  2021/08/15-10/16  S.B.8 took effet on 2021/09/01.
+    Brexit           535 (29.5%)  427,260 (70.9%)  2020/01/01-03/01  Brexit took effect on 2020/02/01.
+    GoT              192 (10.6%)   61,705 (10.2%)  2019/04/01-05/01  GOT S8 premiered (HBO-US) on 2019/04/19.
+    LOTRROP          209 (11.5%)   14,014  (2.3%)  2022/02/01-03/01  LOTRROP teaser trailer was released on 2022/02/14.
+    SquidGame        226 (12.5%)   51,215  (8.5%)  2021/09/10-10/10  Squid Game was released (Netflix wordlwide) on 2021/09/17. 
+    TwitterTakeover  166  (9.1%)   18,531  (3.1%)  2022/04/01-05/01  Elon Musk offers $43 billion to purchase Twitter on 2020/04/14.
 
 ### Dataset Distribution
 
@@ -99,13 +101,11 @@ This repository contains the annotation framework, dataset and code used for the
     Notification      63         26            388     23
             None      20         39             24    286
 
-## Publication
-
 ## Licensing
 
 <p>
   <a property="dct:title" rel="cc:attributionURL" href="https://github.com/TomatenMarc/TACO">TACO -- Twitter Arguments from Conversations</a> by 
-  <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="http://marc-feger.de">Marc Feger</a> is licensed under 
+  <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="mailto:marc.feger@uni-duesseldorf.de">Marc Feger</a> is licensed under 
   <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0</a>
   <div style="display:block;">
     <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1">
@@ -117,7 +117,7 @@ This repository contains the annotation framework, dataset and code used for the
 
 ## Contact
 
-Please contact [marc.feger@uni-duesseldorf.de](marc.feger@uni-duesseldorf.de) or [stefan.dietze@gesis.org](stefan.dietze@gesis.org).
+Please contact [marc.feger@uni-duesseldorf.de](mailto:marc.feger@uni-duesseldorf.de) or [stefan.dietze@gesis.org](mailto:stefan.dietze@gesis.org).
 
 ## Acknowledgements
 
