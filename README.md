@@ -1,10 +1,9 @@
 # :taco: TACO -- Twitter Arguments from COnversations
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8030026.svg)](https://doi.org/10.5281/zenodo.8030026)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com)
 
 [![Share to Community](https://huggingface.co/datasets/huggingface/badges/raw/main/powered-by-huggingface-dark.svg)](https://huggingface.co/TomatenMarc/TACO)
-
-
 
 This repository contains the annotation framework, dataset and code used for the resource paper *"TACO -- Twitter Arguments from COnversations"*.
 To use the baseline model, please visit [Hugging Face](https://huggingface.co/TomatenMarc/TACO).
@@ -13,7 +12,7 @@ To use the baseline model, please visit [Hugging Face](https://huggingface.co/To
 
 - [Repository Layout](#repository-layout)
 - [Findings](#findings)
-- [Publication](#publication)
+- [Example](#example-conversation)
 - [Licensing](#licensing)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
@@ -100,6 +99,12 @@ To use the baseline model, please visit [Hugging Face](https://huggingface.co/To
        Statement      73        168             13     30
     Notification      63         26            388     23
             None      20         39             24    286
+
+## Example Conversation
+
+<div align="center">
+  <img src="https://github.com/TomatenMarc/public-images/raw/main/taco_conversation.svg" alt="Component Space" width="100%">
+</div>
 
 ## Licensing
 
