@@ -20,8 +20,8 @@ necessitate the use of the following files:
 3. [data/backup_tweets.csv](./backup_tweets.csv): Containing the clear text of all tweets (*).
 4. [data/url_dict.json](./url_dict.json): The resolved tiny URLs in order to trace the original URLs (*).
 
-| (*): The sensitive user data contained in these files should not be made public. Please [contact](#contact) for accessing the original data. For rehydrating tweets or for obtaining own conversations we recommend to use our [tool](https://pypi.org/project/twitter-conversation/). |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| (*): The sensitive user data contained in these files should not be made public. Please [contact](#contact) for accessing the original data. For rehydrating tweets or for obtaining own conversations we recommend to use the [Twitter API v2](https://developer.twitter.com/en/docs/twitter-api). |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 ## About conversations
 
@@ -108,5 +108,5 @@ Please contact [marc.feger@uni-duesseldorf.de](mailto:marc.feger@uni-duesseldorf
 
 ## Acknowledgements
 
-We thank Aylin Martin, Tillmann Junk, Andreas Burbach, Talha Caliskan, and Aaron Schneider for their contributions to the
+We thank Aylin Feger, Tillmann Junk, Andreas Burbach, Talha Caliskan, and Aaron Schneider for their contributions to the
 annotation process in this paper.

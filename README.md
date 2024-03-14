@@ -38,10 +38,10 @@ To use the baseline model, please visit [Hugging Face](https://huggingface.co/To
                      Language  Sample       Total            Query-Time        Key-Date
     Abortion         English   486 (26.8%)   29,939  (5.0%)  2021/08/15-10/16  S.B.8 took effet on 2021/09/01.
     Brexit           English   535 (29.5%)  427,260 (70.9%)  2020/01/01-03/01  Brexit took effect on 2020/02/01.
-    GoT              English   192 (10.6%)   61,705 (10.2%)  2019/04/01-05/01  GOT S8 premiered (HBO-US) on 2019/04/19.
-    LOTRROP          English   209 (11.5%)   14,014  (2.3%)  2022/02/01-03/01  LOTRROP teaser trailer was released on 2022/02/14.
-    SquidGame        English   226 (12.5%)   51,215  (8.5%)  2021/09/10-10/10  Squid Game was released (Netflix wordlwide) on 2021/09/17. 
-    TwitterTakeover  English   166  (9.1%)   18,531  (3.1%)  2022/04/01-05/01  Elon Musk offers $43 billion to purchase Twitter on 2020/04/14.
+    GoT              English   192 (10.6%)   61,705 (10.2%)  2019/04/01-05/01  GOT S8 premiered (HBO-US) on 2019/04/14.
+    LOTRROP          English   209 (11.5%)   14,014  (2.3%)  2022/02/01-03/01  LOTRROP teaser trailer was released on 2022/02/13.
+    SquidGame        English   226 (12.5%)   51,215  (8.5%)  2021/09/10-10/10  Squid Game was released (Netflix wordlwide) on 2021/09/17.
+    TwitterTakeover  English   166  (9.1%)   18,531  (3.1%)  2022/04/01-05/01  Elon Musk offers $43 billion to purchase Twitter on 2022/04/14.
 
 ### Dataset Distribution
 
@@ -126,5 +126,5 @@ Please contact [marc.feger@uni-duesseldorf.de](mailto:marc.feger@uni-duesseldorf
 
 ## Acknowledgements
 
-We thank Aylin Martin, Tillmann Junk, Andreas Burbach, Talha Caliskan, and Aaron Schneider for their contributions to the
+We thank Aylin Feger, Tillmann Junk, Andreas Burbach, Talha Caliskan, and Aaron Schneider for their contributions to the
 annotation process in this paper.
