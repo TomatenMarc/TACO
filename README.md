@@ -16,6 +16,7 @@ To use the baseline model, please visit [Hugging Face](https://huggingface.co/To
 - [Licensing](#licensing)
 - [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
+- [Citation](#citation)
 
 ## Repository Layout
 
@@ -40,7 +41,7 @@ To use the baseline model, please visit [Hugging Face](https://huggingface.co/To
     Brexit           English   535 (29.5%)  427,260 (70.9%)  2020/01/01-03/01  Brexit took effect on 2020/02/01.
     GoT              English   192 (10.6%)   61,705 (10.2%)  2019/04/01-05/01  GOT S8 premiered (HBO-US) on 2019/04/14.
     LOTRROP          English   209 (11.5%)   14,014  (2.3%)  2022/02/01-03/01  LOTRROP teaser trailer was released on 2022/02/13.
-    SquidGame        English   226 (12.5%)   51,215  (8.5%)  2021/09/10-10/10  Squid Game was released (Netflix wordlwide) on 2021/09/17.
+    SquidGame        English   226 (12.5%)   51,215  (8.5%)  2021/09/10-10/10  Squid Game was released (Netflix worldwide) on 2021/09/17.
     TwitterTakeover  English   166  (9.1%)   18,531  (3.1%)  2022/04/01-05/01  Elon Musk offers $43 billion to purchase Twitter on 2022/04/14.
 
 ### Dataset Distribution
@@ -128,3 +129,25 @@ Please contact [marc.feger@uni-duesseldorf.de](mailto:marc.feger@uni-duesseldorf
 
 We thank Aylin Feger, Tillmann Junk, Andreas Burbach, Talha Caliskan, and Aaron Schneider for their contributions to the
 annotation process in this paper.
+## Citation
+
+```
+@inproceedings{feger-dietze-2024-taco,
+    title = "{TACO} {--} {T}witter Arguments from {CO}nversations",
+    author = "Feger, Marc  and
+              Dietze, Stefan",
+    editor = "Calzolari, Nicoletta  and
+              Kan, Min-Yen  and
+              Hoste, Veronique  and
+              Lenci, Alessandro  and
+              Sakti, Sakriani  and
+              Xue, Nianwen",
+              booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
+    month = may,
+    year = "2024",
+    address = "Torino, Italia",
+    publisher = "ELRA and ICCL",
+    url = "https://aclanthology.org/2024.lrec-main.1349",
+    pages = "15522--15529"
+}
+```
